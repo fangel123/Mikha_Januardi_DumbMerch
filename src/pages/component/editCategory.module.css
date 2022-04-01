@@ -1,0 +1,53 @@
+.Category nav li:nth-of-type(3) a {
+    color: #F74D4D;
+}
+
+.containerCategory {
+    color: white;
+}
+
+.containerCategory h1 {
+    width: 90%;
+    height: 50px;
+    margin: 50px auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.containerCategory .mb3 {
+    display: flex;
+    justify-content: center;
+}
+
+.containerCategory .category {
+    width: 90%;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.containerCategory .category::placeholder {
+    color: #FFFFFF;
+}
+
+.containerCategory .btnSave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: green;
+}

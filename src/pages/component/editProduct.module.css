@@ -1,0 +1,92 @@
+body {
+    background-color: #0b0b0b;
+    font-family: Avenir;
+}
+
+.ProductC nav li:nth-of-type(4) a {
+    color: #F74D4D;
+}
+
+.containerProduct {
+    color: white;
+}
+
+.containerProduct h1 {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.containerProduct .labelTop {
+    width: 90%;
+
+}
+.containerProduct .btnUpload {
+    width: 10%;
+    height: 50px;
+    margin-left: 95px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #F74D4D;
+}
+
+.containerProduct .fg {
+    display: flex;
+    justify-content: center;
+}
+
+.containerProduct input::placeholder {
+    color: #FFFFFF;
+}
+
+.containerProduct .textarea {
+    width: 90%;
+    height: 80px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    resize: none;
+    height: 130px;
+}
+
+.containerProduct textarea::placeholder{
+    color: #FFFFFF;
+}
+
+.containerProduct .category {
+    width: 90%;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.containerProduct .btnSave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: green;
+}

@@ -1,0 +1,355 @@
+/* Utility */
+.btn-black a{
+    color: #B7B7B7 !important;
+}
+
+.btn-black a:hover{
+    color: #ffff !important;
+}
+
+/* Header */
+.navbar {
+    margin: 29px 50px;
+}
+
+.navigation img {
+    width: 70px;
+    height: 68px;
+}
+
+.link {
+    align-self: center;
+    justify-content: center;
+}
+
+.link a {
+    color: #ffff;
+    display: inline;
+}
+
+/* Form Login */
+.login {
+    height: 98vh;
+    padding: 0px 173px;
+}
+
+.left {
+    flex: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.right {
+    flex: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+/* Form Left */
+.form-left {
+    align-items: center;
+}
+
+.form-left img {
+    width: 264px;
+    height: 257.3px;
+}
+
+.form-left h1{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-left p {
+    color: #6A6A6A;
+    font-size: 18px;
+    margin-bottom: 92px;
+}
+
+.form-left span{
+    font-weight: bold;
+}
+
+.form-left button{
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.form-left a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.form-left a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* Form Right */
+.form-right {
+    background-color: #181818;
+    padding: 33px;
+    width: 416px;
+    border-radius: 10px;   
+}
+
+.form-right h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    margin: 10px 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #D2D2D240;
+    border-radius: 5px;
+    border: 2px solid #bcbcbc;
+    color: #bcbcbc;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form button {
+    margin-top: 38px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-right a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.form-right a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* Card */
+.content a{
+    text-decoration: none
+}
+
+.card {
+    background-color: #212121 !important;
+    margin: 0px 15px;
+}
+
+.card img{
+    height: 257.3px
+}
+
+.card-title {
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    line-height: 25px !important;
+    color: #F74D4D;
+}
+
+.card-description p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* Detail */
+.detail-content {
+    display: flex;
+    margin: 0px 200px;
+}
+.detail-left {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.detail-right {
+    flex: 50%;
+    align-self: center;
+}
+
+.detail-left img {
+    width: 436px;
+    height: 555px;
+}
+
+.detail-right h1 {
+    font-size: 48px;
+    color: #F74D4D;
+    line-height: 65.57px;
+    font-weight: 700;
+}
+
+.detail-right h6 {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24.59px;
+}
+
+.detail-right ul li {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24.59px;
+}
+
+.detail-right p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24.59px;
+    text-align: justify;
+}
+
+.detail-right h5 {
+    color: #F74D4D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    text-align: right;
+}
+
+.detail-right button {
+    width: 100%;
+}
+
+/* Profile */
+.my {
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+.my-right {
+    flex: 50%;
+    color: #F74D4D;
+    
+}
+
+.my-right h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.my-left h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.my-left {
+    margin: 0 100px;
+    flex: 50%;
+    color: #F74D4D;
+}
+
+.profile {
+    display: flex;
+    flex: 50%;
+    margin: 0px 100px;
+}
+
+.profile-picture img {
+    height: 100%;
+    width: 338px;
+}
+
+.profile-detail {
+    margin-left: 38px;
+}
+
+.profile-detail h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #F74D4D;
+    margin-bottom: 6px;
+}
+
+.profile-detail p{
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.transaction {
+    flex: 50%;
+}
+
+.transaction-content {
+    background-color: #303030;
+    width: 524px;
+    height: 145px;
+}
+
+.transaction-image {
+    margin: 0 20px;
+    align-self: center;
+}
+
+.transaction-image img {
+    width: 80px;
+    height: 120px;
+}
+
+.transaction-detail {
+    display: flex;
+    flex: 50%;
+}
+
+.details {
+    align-self: center;
+}
+
+.details h4 {
+    font-size: 14px;
+    color: #F74D4D;
+    font-weight: 700;
+}
+
+.details h5 {
+    font-size: 9px;
+    color: #F74D4D;
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.details h6 {
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.transaction-logo {
+    display: flex;
+    flex: 50%;
+    align-self: center;
+    justify-content: right;
+    margin: 0 20px;
+}
+
+.transaction-logo img {
+    width: 70px;
+    height: 68.22px;
+}
